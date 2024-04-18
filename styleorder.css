@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight: 500;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+   max-width: 1140px; 
+   margin: 0 auto;
+}
+
+.btn {
+ display: flex;
+ border-radius: 5px;
+ background-color: #F6762C;
+
+ width: 165px;
+ height: 50px;
+
+ font-weight: 500;
+ font-size: 16px;
+
+ text-transform: uppercase;
+ align-items: center;
+ justify-content: center;
+ 
+ transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* Шапка */
+.header .container {
+ padding: 25px 0;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+ .header_logo {
+ 
+}
+ 
+ .header_nav {
+
+}
+ 
+ .header_list {
+ display: flex;
+ gap: 30px;
+}
+
+.header_link {
+
+}
+
+.header_nav a {
+ font-size: 14px;
+ opacity: 0.7;
+ transition: opacity 0.3s;
+}
+
+.header_nav a:hover {
+    opacity: 0.9;
+}
+
+.header_nav a.active {
+    opacity: 1;
+}
+    
+
+ .main {
+
+ }
+
+/* Приветственная секция */
+
+ .welcome {
+    box-sizing: border-box;
+    min-height: 100vh;
+
+    margin-top: -100px;
+    padding: 240px 0;
+
+    background-image: url("images/welcome-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .welcome_text {
+   width: 550px;
+}
+ .welcome_subtitle {
+   margin-bottom: 7px;
+   font-size: 14px;
+   letter-spacing: 0.1em;
+ }
+
+ .welcome_title {
+   font-size: 58px;
+ }
+
+ .welcome_desk {
+   font-size: 18px;
+   opacity: 0.7;
+   margin: 40px 0;
+ }
+
+
+.ordermain {
+    width: 400px;
+    height: 200px;
+}
+
+.inputs {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #f4f4f4; /* Цвет фона */
+    color: #333; /* Цвет текста */
+    border: 1px solid #ccc; /* Граница */
+    border-radius: 5px; /* Закругление углов */
+    padding: 5px 10px; /* Отступы */
+}
+
+.inpits {
+    margin-bottom: 14px;
+}
